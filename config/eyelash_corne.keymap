@@ -86,10 +86,10 @@
         Media {
             display-name = "Fn";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                         &none         &trans  &none   &none  &none  &none  &rgb_ug RGB_TOG
-&none         &none           &none         &none         &kp C_VOL_DN  &kp C_VOL_UP           &none  &none  &none  &none   &none   &none  &none  &none  &bl BL_TOG
-&bt BT_CLR    &bt BT_CLR_ALL  &none         &kp C_PREV    &kp C_PP      &kp C_NEXT    &none           &none         &none   &none   &none  &none  &none  &none
-                                            &none         &none         &none                                       &none   &trans  &none
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                         &none         &trans  &bl BL_TOG       &bl BL_ON       &bl BL_OFF       &none            &none
+&none         &none           &none         &none         &kp C_VOL_DN  &kp C_VOL_UP           &none  &none  &none  &none   &bl BL_INC       &bl BL_DEC      &bl BL_CYCLE     &none            &none
+&bt BT_CLR    &bt BT_CLR_ALL  &none         &kp C_PREV    &kp C_PP      &kp C_NEXT    &none           &none         &kp A   &rgb_ug RGB_TOG  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_HUI  &none
+                                            &none         &none         &none                                       &none   &trans           &none
             >;
         };
     };
