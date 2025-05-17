@@ -76,10 +76,10 @@
         Num {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&kp LALT        &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                       &none         &kp N6          &kp N7          &kp N8        &kp N9         &kp N0         &kp BSPC
+&kp LG(SPACE)   &kp LG(A)   &kp LG(S)   &kp LG(D)   &kp LG(F)   &kp LG(G)             &none  &none  &none  &kp MINUS       &kp EQUAL       &kp LBKT      &kp RBKT       &kp BSLH       &kp GRAVE
+&kp LSHIFT      &kp LG(Z)   &kp LG(X)   &kp LG(C)   &kp LG(V)   &kp LG(B)   &none            &none         &kp LS(MINUS)   &kp LS(EQUAL)   &kp LS(LBKT)  &kp LS(RBKT)   &kp LS(BSLH)   &kp TILDE
+                                        &kp LCMD    &trans      &none                                      &none           &none           &none
             >;
         };
 
